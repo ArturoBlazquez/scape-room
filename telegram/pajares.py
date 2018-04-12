@@ -15,7 +15,7 @@ def log(msg):
         f.write(msg+'\n')
 
 
-password="aaa"
+password="fortasec"
 counter=0
 
 def handle(msg):
@@ -44,7 +44,7 @@ def handle(msg):
             reply="Os toca joderos por poner códigos al azar 🙃"
         if msg['text']==password:
             counter=0
-            reply="😀\nHablad con Juan"
+            reply="😀\nHablad con Tomas Gil"
         
         bot.sendMessage(chat_id, reply)
 

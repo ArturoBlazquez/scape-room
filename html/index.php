@@ -1,5 +1,5 @@
 <?php
-    $pass="1234";
+    $pass="conejo";
     print "<!-- $pass -->";
 ?>
 

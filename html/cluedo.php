@@ -3,7 +3,7 @@
     session_start();
     
     
-    $lista = array("Fuego", "Aire", "Tierra", "Agua");
+    $lista = array("Conforme", "briefcase", "Fuego", "fiso");
     
     if (!isset($_SESSION['minipuntos'])){
         $_SESSION['minipuntos'] = 0;
@@ -50,7 +50,7 @@
     
     
     if ($_SESSION['minipuntos'] == 4){
-        print "1234";
+        print "936";
         return;
     }
 ?>
